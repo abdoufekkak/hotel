@@ -6,7 +6,7 @@ const app = express();
 
 // Définir le port sur lequel le serveur écoutera
 const port = 3000;
-const allowedDomains = ['https://protelhere.com'];
+const allowedDomains = ['https://protelhere.com','http://localhost:3000'];
 
 const corsOptions = {
   origin: (origin, callback) => {
